@@ -57,7 +57,7 @@
                     <source>1.7</source>
                     <target>1.7</target>
                     <compilerArguments>
-                        <proc:none />
+                        <proc:none xmlns:proc=""/>
                     </compilerArguments>
                 </configuration>
             </plugin>
@@ -158,7 +158,7 @@
         <dependency>
             <groupId>org.postgresql</groupId>
             <artifactId>postgresql</artifactId>
-            <version>9.2-1003-jdbc3</version>
+            <version>42.2.5</version>
         </dependency>
 
         <!-- WEB -->

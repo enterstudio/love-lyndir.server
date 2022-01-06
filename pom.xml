@@ -57,7 +57,7 @@
                     <source>1.7</source>
                     <target>1.7</target>
                     <compilerArguments>
-                        <proc:none />
+                        <proc:none xmlns:proc=""/>
                     </compilerArguments>
                 </configuration>
             </plugin>
@@ -198,7 +198,7 @@
         <dependency>
             <groupId>com.google.http-client</groupId>
             <artifactId>google-http-client-gson</artifactId>
-            <version>1.17.0-rc</version>
+            <version>1.41.0</version>
             <exclusions>
                 <exclusion>
                     <artifactId>xpp3</artifactId>
